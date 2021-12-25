@@ -103,6 +103,21 @@ button> h1{
     font-size: 15px;
 }
 
+.product-img1{
+    width: 300px;
+    margin:30px 50px;
+    background-color: white;
+    height: 510px;
+    border-radius: 20px;
+    border: 1px solid rgb(64, 85, 64);
+}
+
+.product-img1 > img{
+    width:100%;
+    border-bottom: 1px solid rgb(64, 85, 64);
+}
+
+
 /*hover effect*/
 .hover-on:hover + .hide{
     display: block;
@@ -119,11 +134,40 @@ button> h1{
     text-align: center;
     width: 298px;
     height: 298px;
+    overflow-y: hidden;
     background-color: rgba(0, 0, 0, 0.447);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 .hide >.hidden > h1{
+    text-align: center;
+    margin: 70px 50px;
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+}
+
+.hover-on1:hover + .hide1{
+    display: block;
+    transition:all 0.6s;
+}
+
+.hide1{
+    display: none;
+    justify-content: center;
+}
+.hide1 >.hidden1{
+    position: absolute;
+    margin-top: -288px;
+    text-align: center;
+    width: 298px;
+    height: 283px;
+    overflow-y: hidden;
+    background-color: rgba(0, 0, 0, 0.447);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.hide1 >.hidden1 > h1{
     text-align: center;
     margin: 70px 50px;
     font-size: 18px;

@@ -90,6 +90,14 @@ p.box-link > a{
     line-height: 3;
     text-decoration:none;
 }
+.box a:link{
+    text-decoration:none;
+}
+.box a:hover {
+    text-decoration:underline;
+    background-color:#ffffff;
+    color:rgb(64, 85, 64);
+    }
 
 .box a:visited{
     color:rgb(254, 249, 195) ;
