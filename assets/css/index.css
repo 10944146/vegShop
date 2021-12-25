@@ -30,4 +30,6 @@
     background: url(../images/farm.gif);
     background-size: cover;
 }
-
+a:hover{
+    color: #FFF;
+}
