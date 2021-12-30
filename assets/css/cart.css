@@ -16,7 +16,6 @@
   margin: 0% 15%;
   background-color: white;
   box-shadow: gray 3px 3px 5px;
-  border-radius: 5%;
   padding: 1% 5%;
 }
 .cart-title{
@@ -34,9 +33,13 @@ img{
 }
 td{
   width: 20%;
+  text-align: center;
 }
-.product-q{
-  width: 15%;
+td:nth-child(3),td:nth-child(4),td:nth-child(5){
+  width: 20%;
+}
+input.product-q{
+  width: 30%;
   text-align: center;
 }
 .amount{
