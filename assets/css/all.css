@@ -1,6 +1,6 @@
-@import url('http://fonts.cdnfonts.com/css/dk-cool-crayon');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=East+Sea+Dokdo&display=swap');
 *{
-    font-family: "DK Cool Crayon", sans-serif;
+    font-family: "East Sea Dokdo", cursive;
     /* outline: 1px solid red; */
     overflow-x: hidden;
 }
@@ -23,7 +23,7 @@ hr{
     border-bottom-color: black;
 }
 
-h1 > a {
+a{
     text-decoration:none;
     color: black;
     text-shadow: rgba(72, 72, 72, 0.37) 4px 3px 0px;
@@ -114,8 +114,4 @@ button> h1{
 .product-img1 >a > img{
     width:313px;
     border-bottom: 1px solid rgb(64, 85, 64);
-}
-
-a{
-    z-index: -10;
 }

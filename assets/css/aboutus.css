@@ -9,8 +9,8 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: 50vh;
-    font-size: 5.5rem;
+    top: 40vh;
+    font-size: 7rem;
     font-weight: 600;
     letter-spacing: 20px;
     color: black;
@@ -18,10 +18,10 @@
 }
 
 section{
-    margin-top: 20px;
+    margin-top: 80px;
 }
 .title{
-    font-size: 36px;
+    font-size: 3rem;
     text-align: center;
 }
 .content{
@@ -29,6 +29,7 @@ section{
     font-weight: 600;
     line-height: 25px;
     text-align: center;
+    font-size: 1.2rem;
 }
 /*-------------*/
 /*介紹*/
@@ -126,6 +127,7 @@ li p{
     width: 190px;
     margin-top: 20px;
     text-align: center;
+    font-size: 1.2rem;
 }
 .footer-left{
     float: left;

@@ -13,6 +13,7 @@
 .pagetitle{
     text-align: center;
     line-height: 100px;
+    font-size: 3rem;
 }
 .login-box{
     position: relative;
@@ -29,6 +30,7 @@
 .loginGroup{
     line-height: 40px;
     padding: 0px 20%;
+    font-size: 1.5rem;
 }
 .btn{
     line-height: 20px;
@@ -41,6 +43,7 @@
     padding: 5px 100px;
     background-color: #48533d;
     border-radius: 6px;
+    font-size: 1rem;
 }
 .icon{
     margin: 10px 35%;
