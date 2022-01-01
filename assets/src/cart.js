@@ -23,11 +23,12 @@ function minus(less){
 
 //總計
 var btntt=document.querySelector('#total');
+var bd=document.getElementsByClassName('item_body').length;
 function totalprice(){
     var tb=document.getElementById('list');
     var money=0;
-    for(i=1;i<4;i++){
-        var np=tb.rows[i].cells[4].innerHTML; //找到小計
+    for(i=1;i<=bd;i++){
+        var np=tb.rows[i].cells[4].innerHTML; //找到小計(表格的第i列第4行)
         money+=Number(np);
     }
     if(money>=1000){
